@@ -8,7 +8,7 @@ def get_system_info():
     return {
         'os': platform.system(),
         'python': platform.python_version(),
-        'cpu': platform.processor(),
+        'cpu': platform.processor() or platform.machine() or 'Unknown',
         'ram': _get_ram(),
         'hostname': socket.gethostname()
     }
@@ -19,7 +19,7 @@ def _get_ram():
     try:
         mem = psutil.virtual_memory()
         return round(mem.total / (1024 ** 3), 2)
-    except Exception:
+    except (psutil.Error, OSError):
         return None
 
 
