@@ -11,7 +11,7 @@ GitHub
 ↓
 Codex Agent
 ↓
-Devstral
+Qwen3.8-27B Q8_0
 ↓
 Tools
 ├── exec_command
@@ -38,7 +38,7 @@ GitHub
 
 負責本地實作與工具操作。
 
-### Devstral
+### Qwen3.8-27B Q8_0
 
 負責 coding reasoning。
 

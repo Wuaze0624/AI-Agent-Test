@@ -2,14 +2,14 @@
 
 ## 用途
 
-測試 ChatGPT + GitHub + Codex + Devstral 的本地 AI Coding Agent 工作流程。
+測試 ChatGPT + GitHub + Codex + Qwen3.8-27B Q8_0 的本地 AI Coding Agent 工作流程。
 
 ## 目前環境
 
 - Windows
-- Python 3.11.4
+- Python 3.13.15
 - Ollama
-- Devstral Small 2 24B Q4_K_M
+- Qwen3.8-27B Q8_0
 - Codex Agent
 - Git
 - GitHub
@@ -22,7 +22,7 @@ GitHub
 ↓
 Codex
 ↓
-Devstral
+Qwen3.8-27B Q8_0
 ↓
 Windows Tools
 ↓
